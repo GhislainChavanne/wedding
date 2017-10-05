@@ -30,13 +30,13 @@ h1 {
 }
 
 
-iframe {
+audio {
   position: absolute;
   top: 20px;
   right: 20px;
-  border: 2px solid #00576c;
-  width: 166px;
-  height: 166px;
+  border: 5px solid #dee2e2;
+  height: 50px;
+  background-color: #fff6f3;
 }
 
 .links {
@@ -49,6 +49,7 @@ iframe {
     letter-spacing: 2px;
     margin: 0px;
     margin-top: 20px;
+    border-radius: 2px;
   }
 }
 
@@ -56,6 +57,38 @@ iframe {
   margin: auto;
   img {
     width: 400px;
+    z-index: 1000;
+  }
+}
+
+.date {
+  position: absolute;
+  bottom: 20px;
+  right: 20px;
+  h3 {
+    letter-spacing: 2px;
+    text-align: center;
+    font-family: 'Abril Fatface', cursive;
+    margin: 0px;
+    color: #004d79;
+  }
+}
+
+@media screen and (max-width: 875px) {
+  .date {
+    bottom: 30%;
+    width: 120px;
+    height: 120px;
+    right: 60px;
+    h3 {
+      font-size: 18px;
+    }
+  }
+}
+
+@media screen and (max-width: 462px) {
+  .date {
+    bottom: 35%;
   }
 }
 
@@ -71,20 +104,17 @@ iframe {
   }
 }
 
+
+
 @media screen and (max-width: 875px) {
   h1 {
     position: relative;
-        left: 0px;
+    left: 0px;
     font-size: 40px;
     text-align: center;
   }
 }
 
-@media screen and (max-width: 500px) {
-  iframe {
-    display: none;
-  }
-}
 
 @media screen and (max-width: 875px) {
   .banner-content img {
@@ -111,6 +141,30 @@ iframe {
   }
 }
 
+
+@media screen and (max-width: 1018px) {
+  audio {
+    width: 150px;
+  }
+}
+
+@media screen and (max-width: 875px) {
+  audio {
+    position: relative;
+    width: 50%;
+    margin: auto;
+    right: 0px;
+  }
+}
+
+@media screen and (max-width: 500px) {
+  audio {
+    position: relative;
+    width: 70%;
+    margin: auto;
+    right: 0px;
+  }
+}
 
 
 
