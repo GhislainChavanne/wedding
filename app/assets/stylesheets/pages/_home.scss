@@ -26,15 +26,6 @@ h1 {
   padding: 15px;
 }
 
-  h1:after{
-    content: "";
-    position: absolute;
-    bottom: 6px;
-    opacity: 0.3;
-    left: 30%;
-    right: 30%;
-    border-bottom: 15px solid #FECB53;
-  }
 
 
 audio {
@@ -59,6 +50,7 @@ audio {
     border-radius: 2px;
   }
 }
+
 
 .banner-content {
   margin: auto;
@@ -183,7 +175,7 @@ position: relative;
 position: absolute;
 border-radius: 100%;
 bottom: 10px;
-background-color: #fff;
+background-color: #2875bf;
 z-index: 1;
 }
 
