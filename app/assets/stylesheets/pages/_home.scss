@@ -8,8 +8,10 @@
   text-align: center;
   flex-flow: column;
   justify-content: space-around;
-  background-position: center;
-  background-repeat: 30;
+  background-repeat: no-repeat;
+  background-position: top left;
+  background-size: 20%;
+  background-color: white;
 }
 
 h1 {
@@ -49,6 +51,13 @@ audio {
     margin-top: 20px;
     border-radius: 2px;
   }
+  h5 {
+    letter-spacing: 2px;
+    text-align: left;
+    font-family: 'Abril Fatface', cursive;
+    margin: 0px;
+    color: #004d79;
+  }
 }
 
 
@@ -60,46 +69,17 @@ audio {
   }
 }
 
-.date {
-  position: absolute;
-  bottom: 20px;
-  right: 20px;
-  h3 {
-    letter-spacing: 2px;
-    text-align: center;
-    font-family: 'Abril Fatface', cursive;
-    margin: 0px;
-    color: #004d79;
-  }
-}
 
-@media screen and (max-width: 875px) {
-  .date {
-    bottom: 30%;
-    width: 120px;
-    height: 120px;
-    right: 60px;
-    h3 {
-      font-size: 18px;
-    }
-  }
-}
-
-@media screen and (max-width: 462px) {
-  .date {
-    bottom: 35%;
-  }
-}
 
 @media screen and (max-width: 875px) {
   .banner {
-    height: 120vh;
+    height: 150vh;
   }
 }
 
 @media screen and (max-width: 475px) {
   .banner {
-    height: 140vh;
+    height: 180vh;
   }
 }
 
@@ -180,5 +160,29 @@ z-index: 1;
 }
 
 
+.mixtape {
+  position: absolute;
+  right: 20px;
+  bottom: 20px;
+  text-align: center;
+  img {
+    width: 150px;
+  }
+  h3 {
+    font-family: 'Abril Fatface', cursive;
+    color: #004d79;
+    margin: 0px;
+  }
+}
+
+
+@media screen and (max-width: 875px) {
+  .mixtape {
+    position: relative;
+    width: 70%;
+    margin: auto;
+    right: 0px;
+  }
+}
 
 
