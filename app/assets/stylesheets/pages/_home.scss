@@ -8,9 +8,9 @@
   text-align: center;
   flex-flow: column;
   justify-content: space-around;
+  background-color: white;
   background-repeat: no-repeat;
-  background-position: top left;
-  background-size: 20%;
+  background-position: top-left;
   background-color: white;
 }
 
@@ -24,7 +24,7 @@ h1 {
   right: 0;
   top: 20px;
   text-align: center;
-  color: #004d79;
+  color: #0B409C;
   padding: 15px;
 }
 
@@ -56,7 +56,8 @@ audio {
     text-align: left;
     font-family: 'Abril Fatface', cursive;
     margin: 0px;
-    color: #004d79;
+    color: #0B409C;
+    font-size: 28px;
   }
 }
 
@@ -163,14 +164,14 @@ z-index: 1;
 .mixtape {
   position: absolute;
   right: 20px;
-  bottom: 20px;
+  top: 120px;
   text-align: center;
   img {
     width: 200px;
   }
   h3 {
     font-family: 'Abril Fatface', cursive;
-    color: #004d79;
+    color: #0B409C;
     margin: 0px;
   }
 }
@@ -182,7 +183,20 @@ z-index: 1;
     width: 70%;
     margin: auto;
     right: 0px;
+    top: 0px;
   }
 }
 
+.bottom-img {
+  position: absolute;
+  bottom: 0px;
+  right: 0px;
+  opacity: 0.7;
+}
+
+@media screen and (max-width: 875px) {
+  .bottom-img {
+    display: none;
+  }
+}
 
