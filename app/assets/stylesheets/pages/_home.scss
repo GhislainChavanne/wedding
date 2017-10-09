@@ -26,6 +26,7 @@ h1 {
   text-align: center;
   color: #0B409C;
   padding: 15px;
+  text-shadow: #ffffff 1px 1px, #ffffff -1px 1px, #ffffff -1px -1px, #ffffff 1px -1px;
 }
 
 
@@ -197,6 +198,15 @@ z-index: 1;
 @media screen and (max-width: 875px) {
   .bottom-img {
     display: none;
+  }
+}
+
+.modal-content {
+  padding: 30px;
+  color: #0B409C;
+  h2 {
+    text-align: center;
+    font-family: 'Abril Fatface', cursive;
   }
 }
 
