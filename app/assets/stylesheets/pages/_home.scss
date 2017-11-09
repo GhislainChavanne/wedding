@@ -51,6 +51,7 @@ audio {
     margin: 0px;
     margin-top: 20px;
     border-radius: 2px;
+    z-index: 10000;
   }
   h5 {
     letter-spacing: 2px;
@@ -66,7 +67,7 @@ audio {
 .banner-content {
   margin: auto;
   img {
-    width: 300px;
+    width: 400px;
     z-index: 1000;
   }
 }
@@ -75,13 +76,13 @@ audio {
 
 @media screen and (max-width: 875px) {
   .banner {
-    height: 145vh;
+    height: 160vh;
   }
 }
 
 @media screen and (max-width: 475px) {
   .banner {
-    height: 180vh;
+    height: 200vh;
   }
 }
 
@@ -99,15 +100,23 @@ audio {
 
 @media screen and (max-width: 875px) {
   .banner-content img {
-    width: 200px;
+    width: 300px;
   }
 }
 
+
 @media screen and (max-width: 420px) {
   .banner-content img {
-    width: 200px;
+    width: 280px;
   }
 }
+
+@media screen and (max-width: 320px) {
+  .banner-content img {
+    width: 240px;
+  }
+}
+
 
 @media screen and (max-width: 875px) {
   .links {
